@@ -292,7 +292,7 @@ def Send_Orders(map):                  #.....wysyłka zamówień do baselinkera
         parameters = json.dumps(order)
 
         data = {
-            'token': '1002993-1009675-.................................',
+            'token': '100.....-........-.................................',
             'method': 'addOrder',
             'parameters': parameters
         }
