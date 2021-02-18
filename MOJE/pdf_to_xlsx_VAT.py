@@ -31,4 +31,4 @@ with open('Magda_VAT.csv', 'w', newline='', encoding='utf-8') as f:
         # print(row)
         writer.writerow(row.values())
 f.close()
-
+ 
