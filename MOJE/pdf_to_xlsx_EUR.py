@@ -29,6 +29,6 @@ with open('Magda_EUR.csv', 'w', newline='', encoding='utf-8') as f:
     writer.writerow(final[0].keys())
     for row in final:
         print(row)
-        writer.writerow(row.values())
+        writer.writerow(row.values()) 
 f.close()
 
